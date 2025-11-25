@@ -14,15 +14,19 @@ function Projects() {
             <button className="project-btn">View Project</button>
           </Link>
         </div>
-        <div className="project-item placeholder">
-          <h2>Coming Soon</h2>
-          <p>More projects will be added here.</p>
-          <button className="project-btn disabled" disabled>Coming Soon</button>
+        <div className="project-item">
+          <h2>Timer</h2>
+          <p>A real-time clock application that updates every second.</p>
+          <Link to="/timer">
+            <button className="project-btn">View Project</button>
+          </Link>
         </div>
-        <div className="project-item placeholder">
-          <h2>Coming Soon</h2>
-          <p>More projects will be added here.</p>
-          <button className="project-btn disabled" disabled>Coming Soon</button>
+        <div className="project-item">
+          <h2>Image Carousel</h2>
+          <p>An image carousel that automatically cycles through images.</p>
+          <Link to="/carousel">
+            <button className="project-btn">View Project</button>
+          </Link>
         </div>
       </div>
     </div>

@@ -1,13 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #659999 0%, #f4791f 100%);
+  min-height: 100vh;
+}
+
 .projects-container {
   padding: 20px;
   max-width: 1200px;
   margin: 0 auto;
+  color: white;
 }
 
 .projects-container h1 {
   text-align: center;
   margin-bottom: 40px;
-  color: #333;
+  color: white;
 }
 
 .projects-list {
@@ -18,13 +27,14 @@
 }
 
 .project-item {
-  background: #f9f9f9;
-  border: 1px solid #ddd;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 8px;
   padding: 20px;
   width: 300px;
   text-align: center;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  backdrop-filter: blur(10px);
 }
 
 .project-item h2 {
@@ -33,7 +43,7 @@
 }
 
 .project-item p {
-  color: #666;
+  color: #555;
   margin-bottom: 20px;
 }
 
